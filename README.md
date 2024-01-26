@@ -1,6 +1,10 @@
-Authors: Eddie Edwards (eddie.edwards@ucl.ac.uk), Dimitrios Kanoulas, Luke Beddow, Denis Hadjivelichkov
+# UCL-COMP0129-LAB
 
-Description: This package forms the base ROS workspace for the module COMP0129: Robotic Sensing, Manipulation and Interaction.
+Description: This package forms the base ROS workspace for UCL COMP0129: Robotic Sensing, Manipulation and Interaction, using for weekly lab practice.
+
+Author:
+Workspace created by Eddie Edwards, Dimitrios Kanoulas, Luke Beddow, Denis Hadjivelichkov
+Tutorial completed and maintained by Yuang Du(ucab190@ucl.ac.uk)
 
 ## Pre-Requisites
 ```bash
@@ -14,26 +18,9 @@ Gazebo physics simluator is also needed (http://gazebosim.org/). This can be ins
 
 ## Installation
 ```bash
-> git clone --recurse-submodules https://github.com/COMP0129-UCL/comp0129_s24_robot.git
-> cd comp0129_s24_robot
-> git submodule update --init --recursive
-> catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
+> git clone https://github.com/alstondu/UCL-COMP0129-LAB.git
+> cd UCL-COMP0129-LAB
 > catkin build
-```
-
-## Run Panda robot Gazebo and rviz
-```bash
-> source devel/setup.bash
-> roslaunch panda_description description.launch
-```
-
-## Package Preparation (not to be ran by students):
-```bash
-> mkdir src
-> git submodule add https://github.com/COMP0129-UCL/panda_moveit_config.git src/panda_moveit_config
-> git submodule add https://github.com/COMP0129-UCL/panda_description.git src/panda_description
-> git submodule add https://github.com/RPL-CS-UCL/realsense_gazebo_plugin.git src/realsense_gazebo_plugin 
-> git submodule add https://github.com/RPL-CS-UCL/rpl_panda_with_rs.git src/rpl_panda_with_rs
 ```
 
 ## License
