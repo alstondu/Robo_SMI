@@ -1,0 +1,7 @@
+labs/style_tutorial
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/cmake.lock /home/alston/UCL-COMP0129-LAB/devel/./cmake.lock
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/share/style_tutorial/cmake/style_tutorialConfig-version.cmake /home/alston/UCL-COMP0129-LAB/devel/share/style_tutorial/cmake/style_tutorialConfig-version.cmake
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/share/style_tutorial/cmake/style_tutorialConfig.cmake /home/alston/UCL-COMP0129-LAB/devel/share/style_tutorial/cmake/style_tutorialConfig.cmake
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/lib/libstyle_tutorial_lib.so /home/alston/UCL-COMP0129-LAB/devel/lib/libstyle_tutorial_lib.so
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/lib/pkgconfig/style_tutorial.pc /home/alston/UCL-COMP0129-LAB/devel/lib/pkgconfig/style_tutorial.pc
+/home/alston/UCL-COMP0129-LAB/devel/.private/style_tutorial/lib/style_tutorial/style_tutorial_node /home/alston/UCL-COMP0129-LAB/devel/lib/style_tutorial/style_tutorial_node
