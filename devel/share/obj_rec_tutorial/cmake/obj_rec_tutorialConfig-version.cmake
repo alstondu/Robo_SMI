@@ -1,0 +1,1 @@
+/home/alston/comp0129_s24_labs/devel/.private/obj_rec_tutorial/share/obj_rec_tutorial/cmake/obj_rec_tutorialConfig-version.cmake

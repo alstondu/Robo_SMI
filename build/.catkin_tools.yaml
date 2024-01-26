@@ -1,0 +1,6 @@
+devel_space: /home/alston/UCL-COMP0129-LAB/devel
+install: false
+install_space: /home/alston/UCL-COMP0129-LAB/install
+profile: default
+source_space: /home/alston/UCL-COMP0129-LAB/src
+workspace: /home/alston/UCL-COMP0129-LAB

@@ -1,0 +1,1 @@
+/home/alston/comp0129_s24_labs/devel/.private/pcl_demo/share/pcl_demo/cmake/pcl_demoConfig-version.cmake

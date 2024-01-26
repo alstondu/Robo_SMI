@@ -1,0 +1,1 @@
+/home/alston/comp0129_s24_labs/devel/.private/moveit_tutorial/share/roseus/ros/moveit_tutorial/manifest.l

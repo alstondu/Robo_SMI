@@ -1,0 +1,1 @@
+/home/alston/comp0129_s24_labs/devel/.private/moveit_solution/share/roseus/ros/moveit_solution/srv/add_collision.l

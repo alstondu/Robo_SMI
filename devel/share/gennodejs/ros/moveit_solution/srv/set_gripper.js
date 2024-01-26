@@ -1,0 +1,1 @@
+/home/alston/comp0129_s24_labs/devel/.private/moveit_solution/share/gennodejs/ros/moveit_solution/srv/set_gripper.js
