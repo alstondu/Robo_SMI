@@ -6,6 +6,18 @@ Author:
 Workspace created by Eddie Edwards, Dimitrios Kanoulas, Luke Beddow, Denis Hadjivelichkov
 Tutorial completed and maintained by Yuang Du(ucab190@ucl.ac.uk)
 
+## Topics Covered
+
++ Representing Poses and Kinematics for Robot Manipulation
++ Visual & other Exteroceptive Sensing
++ Visual pose estimation under uncertainty
++ Force/Torque & other Proprioceptive Sensing
++ Sensing-based Grasping
++ Pick-and-Place Methods
++ Navigation Among Movable Objects (NAMO)
++ Human-Robot Interaction and Collaboration
++ Reinforcement Learning for Grasping
+
 ## Pre-Requisites
 ```bash
 > sudo apt install ros-noetic-franka-ros ros-noetic-libfranka
