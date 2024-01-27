@@ -1,4 +1,4 @@
-# UCL-COMP0129-LAB
+# Robo_SMI
 
 Description: This package forms the base ROS workspace for UCL COMP0129: Robotic Sensing, Manipulation and Interaction, using for weekly lab practice.
 
