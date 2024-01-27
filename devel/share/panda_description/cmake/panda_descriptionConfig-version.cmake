@@ -1,1 +1,1 @@
-/home/alston/comp0129_s24_labs/devel/.private/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake
+/home/alston/UCL-COMP0129-LAB/devel/.private/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake

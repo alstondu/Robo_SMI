@@ -1,7 +1,0 @@
-labs/obj_rec_tutorial
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/cmake.lock /home/alston/UCL-COMP0129-LAB/devel/./cmake.lock
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/share/obj_rec_tutorial/cmake/obj_rec_tutorialConfig-version.cmake /home/alston/UCL-COMP0129-LAB/devel/share/obj_rec_tutorial/cmake/obj_rec_tutorialConfig-version.cmake
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/share/obj_rec_tutorial/cmake/obj_rec_tutorialConfig.cmake /home/alston/UCL-COMP0129-LAB/devel/share/obj_rec_tutorial/cmake/obj_rec_tutorialConfig.cmake
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/lib/libobj_rec_tutorial_lib.so /home/alston/UCL-COMP0129-LAB/devel/lib/libobj_rec_tutorial_lib.so
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/lib/obj_rec_tutorial/correspondence_grouping /home/alston/UCL-COMP0129-LAB/devel/lib/obj_rec_tutorial/correspondence_grouping
-/home/alston/UCL-COMP0129-LAB/devel/.private/obj_rec_tutorial/lib/pkgconfig/obj_rec_tutorial.pc /home/alston/UCL-COMP0129-LAB/devel/lib/pkgconfig/obj_rec_tutorial.pc

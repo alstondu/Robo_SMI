@@ -31,7 +31,7 @@
  *  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  *  POSSIBILITY OF SUCH DAMAGE.
  */
- 
+
 
 
 #include <moveit_tutorial/moveit_tutorial.h>
@@ -321,7 +321,7 @@ SrvClass::pick(geometry_msgs::Point grasp_point)
     return false;
   }
 
-  ROS_INFO("Pick operation successful");
+  ROS_INFO("Pick operation successful, abaaaaaa");
 
   return true;
 }

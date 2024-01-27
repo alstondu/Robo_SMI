@@ -1,1 +1,1 @@
-/home/alston/comp0129_s24_labs/devel/.private/pcl_tutorial/lib/pkgconfig/pcl_tutorial.pc
+/home/alston/UCL-COMP0129-LAB/devel/.private/pcl_tutorial/lib/pkgconfig/pcl_tutorial.pc

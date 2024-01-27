@@ -1,2 +1,0 @@
-set(moveit_solution_MESSAGE_FILES "")
-set(moveit_solution_SERVICE_FILES "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_solution/srv/set_arm.srv;/home/alston/UCL-COMP0129-LAB/src/labs/moveit_solution/srv/set_gripper.srv;/home/alston/UCL-COMP0129-LAB/src/labs/moveit_solution/srv/add_collision.srv;/home/alston/UCL-COMP0129-LAB/src/labs/moveit_solution/srv/remove_collision.srv;/home/alston/UCL-COMP0129-LAB/src/labs/moveit_solution/srv/pick.srv")

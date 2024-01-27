@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/alston/UCL-COMP0129-LAB/devel/.private/pcl_tutorial:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/alston/UCL-COMP0129-LAB/devel/.private/pcl_tutorial/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/alston/UCL-COMP0129-LAB/devel/.private/pcl_tutorial/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/alston/UCL-COMP0129-LAB/build/pcl_tutorial'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/alston/UCL-COMP0129-LAB/devel/.private/pcl_tutorial/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/alston/comp0129_s24_labs/src/labs/pcl_tutorial:/home/alston/UCL-COMP0129-LAB/src/labs/pcl_tutorial:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/alston/UCL-COMP0129-LAB/src/labs/pcl_tutorial:$ROS_PACKAGE_PATH"

@@ -1,1 +1,1 @@
-/home/alston/comp0129_s24_labs/devel/.private/panda_moveit_config/lib/pkgconfig/panda_moveit_config.pc
+/home/alston/UCL-COMP0129-LAB/devel/.private/panda_moveit_config/lib/pkgconfig/panda_moveit_config.pc

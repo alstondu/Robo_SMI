@@ -1,1 +1,0 @@
-/home/alston/comp0129_s24_labs/devel/.private/style_tutorial/share/style_tutorial/cmake/style_tutorialConfig-version.cmake

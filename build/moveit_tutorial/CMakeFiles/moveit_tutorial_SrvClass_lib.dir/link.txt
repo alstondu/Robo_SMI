@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmoveit_tutorial_SrvClass_lib.so -o /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/lib/libmoveit_tutorial_SrvClass_lib.so CMakeFiles/moveit_tutorial_SrvClass_lib.dir/src/moveit_tutorial.cpp.o 
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libmoveit_tutorial_SrvClass_lib.so -o /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/lib/libmoveit_tutorial_SrvClass_lib.so CMakeFiles/moveit_tutorial_SrvClass_lib.dir/src/moveit_tutorial.cpp.o 

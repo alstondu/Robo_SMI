@@ -19,7 +19,7 @@ add_custom_target(moveit_tutorial_generate_messages ALL)
 
 get_filename_component(_filename "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv" NAME_WE)
 add_custom_target(_moveit_tutorial_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "moveit_tutorial" "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "moveit_tutorial" "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_gripper.srv" NAME_WE)
@@ -29,7 +29,7 @@ add_custom_target(_moveit_tutorial_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv" NAME_WE)
 add_custom_target(_moveit_tutorial_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "moveit_tutorial" "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv" "geometry_msgs/Vector3:geometry_msgs/Quaternion:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "moveit_tutorial" "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv" "geometry_msgs/Quaternion:geometry_msgs/Vector3:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/remove_collision.srv" NAME_WE)
@@ -53,7 +53,7 @@ add_custom_target(_moveit_tutorial_generate_messages_check_deps_${_filename}
 _generate_srv_cpp(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_cpp(moveit_tutorial
@@ -65,7 +65,7 @@ _generate_srv_cpp(moveit_tutorial
 _generate_srv_cpp(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_cpp(moveit_tutorial
@@ -118,7 +118,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS moveit_tutorial_generate_messages_c
 _generate_srv_eus(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_eus(moveit_tutorial
@@ -130,7 +130,7 @@ _generate_srv_eus(moveit_tutorial
 _generate_srv_eus(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_eus(moveit_tutorial
@@ -183,7 +183,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS moveit_tutorial_generate_messages_e
 _generate_srv_lisp(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_lisp(moveit_tutorial
@@ -195,7 +195,7 @@ _generate_srv_lisp(moveit_tutorial
 _generate_srv_lisp(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_lisp(moveit_tutorial
@@ -248,7 +248,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS moveit_tutorial_generate_messages_l
 _generate_srv_nodejs(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_nodejs(moveit_tutorial
@@ -260,7 +260,7 @@ _generate_srv_nodejs(moveit_tutorial
 _generate_srv_nodejs(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_nodejs(moveit_tutorial
@@ -313,7 +313,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS moveit_tutorial_generate_messages_n
 _generate_srv_py(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_py(moveit_tutorial
@@ -325,7 +325,7 @@ _generate_srv_py(moveit_tutorial
 _generate_srv_py(moveit_tutorial
   "/home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/moveit_tutorial
 )
 _generate_srv_py(moveit_tutorial

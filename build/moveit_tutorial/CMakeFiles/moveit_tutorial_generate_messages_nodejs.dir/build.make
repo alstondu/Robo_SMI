@@ -62,8 +62,8 @@ CMakeFiles/moveit_tutorial_generate_messages_nodejs: /home/alston/UCL-COMP0129-L
 
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv
-/home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/set_arm.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alston/UCL-COMP0129-LAB/build/moveit_tutorial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from moveit_tutorial/set_arm.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/set_arm.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p moveit_tutorial -o /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv
@@ -75,8 +75,8 @@ CMakeFiles/moveit_tutorial_generate_messages_nodejs: /home/alston/UCL-COMP0129-L
 
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv
-/home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv/add_collision.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alston/UCL-COMP0129-LAB/build/moveit_tutorial/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from moveit_tutorial/add_collision.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/alston/UCL-COMP0129-LAB/src/labs/moveit_tutorial/srv/add_collision.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p moveit_tutorial -o /home/alston/UCL-COMP0129-LAB/devel/.private/moveit_tutorial/share/gennodejs/ros/moveit_tutorial/srv
