@@ -30,8 +30,9 @@ Gazebo physics simluator is also needed (http://gazebosim.org/). This can be ins
 
 ## Installation
 ```bash
-> git clone https://github.com/alstondu/UCL-COMP0129-LAB.git
+> git clone https://github.com/alstondu/Robo_SMI.git
 > cd UCL-COMP0129-LAB
+> catkin clean
 > catkin build
 ```
 
